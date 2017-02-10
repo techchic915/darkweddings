@@ -1,0 +1,95 @@
+* {
+	color: #fff;
+
+}
+body {
+	background: #16335b;
+}
+h1, span {
+	font-family: 'Lobster Two', cursive;
+	color: #fff !important;
+}
+p {
+	font-family: 'Hind', sans-serif !important;
+	font-size: 16px;
+	padding-top: 2%;
+	line-height: 1.50;
+}
+.navbar {
+	background: rgba(22, 51, 91, 0.7);
+	border-radius: 0;
+	border: 0;
+	z-index: 999999;
+	color: #fff;
+}
+.navbar ul li a, .navbar .navbar-brand {
+    color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
+.navbar-nav li a:hover, .navbar-nav li.active a {
+      color: #7C2D42 !important;
+ }
+
+.jumbotron {
+	height: 700px;
+	background: url(http://res.cloudinary.com/mamo/image/upload/v1482973137/wedding-dresses-1486004_1920_oxtsg4.jpg) center center fixed;
+}
+.jumbotron .containter {
+	position: relative;
+}
+.jumbotron .container h1 {
+	position: absolute;
+	top: 70px;
+	text-shadow: 2px 2px 5px black;
+}
+.jumbotron-dress {
+	margin-top: 15px;
+	height: 430px;
+	background: url(http://res.cloudinary.com/mamo/image/upload/v1483030768/dresses_j8waaz.jpg) center bottom;
+}
+.btn-default {
+	background-color: #000;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+}
+#googleMap iframe {
+	width: 100%;
+	height: 300px;
+	margin-top: 25px; 
+	position: relative;
+	overflow: hidden;
+	padding: 0;
+}
+.footer-bg {
+	background-color: #7C2D42;
+	margin: 0;
+}
+a {
+	color: #fff;
+}
+h1.social-text {
+	text-align: center;
+	padding-bottom: 15px; 
+}
+input[type=email] {
+	color: #7C2D42;
+	padding: 5px 7px;
+	border: 0;
+	box-sizing: border-box;
+	margin-bottom: 15px;
+}
+.footer2 {
+	padding: 15px;
+	text-align: center;
+	background-color: #35121b; 
+}
+@media only screen and (max-width: 600px) {
+	.jumbotron {
+		background: url(http://res.cloudinary.com/mamo/image/upload/v1482973137/wedding-dresses-1486004_1920_oxtsg4.jpg) center top;
+	}
+}
